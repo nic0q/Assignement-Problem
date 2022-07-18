@@ -1,0 +1,443 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2
+# Built for x86_64-w64-mingw32
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon Jul 18 14:58:41 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = pqrR
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := c:/Users/nicol/Documents/Universidad/Nivel 5/Taller de Progra/Tarea 2/C�digo
+# default
+SHELL := C:/w64devkit/bin/sh.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es-419","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ONEDRIVE = C:\Users\nicol\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+TMP = C:\Users\nicol\AppData\Local\Temp
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_CWD = C:\Users\nicol\Documents\Universidad\Nivel 5\Taller de Progra\Tarea 2\C�digo
+# default
+MAKE_HOST := x86_64-w64-mingw32
+# environment
+PATH = C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\nicol\AppData\Local\Microsoft\WindowsApps;C:\Users\nicol\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nicol\AppData\Local\gitkraken\bin;C:\Users\nicol\AppData\Roaming\npm;C:\w64devkit\bin;
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+USERPROFILE = C:\Users\nicol
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_12988_DLLDOCDLUNNGIEGS
+# environment
+COMPUTERNAME = DESKTOP-GJJBLUV
+# environment
+PROGRAMFILES = C:\Program Files
+# default
+.LOADED := 
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = nicol
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\nicol\AppData\Roaming\Code\CachedData\b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# environment
+LOGONSERVER = \\DESKTOP-GJJBLUV
+# environment
+ONEDRIVECONSUMER = C:\Users\nicol\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = DESKTOP-GJJBLUV
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# default
+MAKE_VERSION := 4.2
+# makefile
+.DEFAULT_GOAL := all
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\nicol\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\c1b68a88e8f94cb8608544f5ac66a4cb-1.69.1-main-sock
+# environment
+HOMEPATH = \Users\nicol
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\nicol\AppData\Roaming
+# environment
+TEMP = C:\Users\nicol\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# makefile (from 'Makefile', line 1)
+FLAGS = -O2 
+ 
+# environment
+PROCESSOR_REVISION = 1801
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 23
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 12988
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-GJJBLUV
+# variable set hash-table stats:
+# Load=89/1024=9%, Rehash=0, Collisions=16/113=14%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key c:/Users/nicol/Documents/Universidad/Nivel 5/Taller de Progra/Tarea 2/C�digo, mtime 1658170701ll): 26 files, no impossibilities.
+
+# 26 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+test_Assignement: Cost.o Node.o Container.o Assignement.o test_Assignement.cpp
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := test_Assignement
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := Cost.o Node.o Container.o Assignement.o test_Assignement.cpp
+# automatic
+# | := 
+# automatic
+# < := Cost.o
+# automatic
+# ^ := Cost.o Node.o Container.o Assignement.o test_Assignement.cpp
+# automatic
+# ? := Cost.o Node.o Container.o Assignement.o test_Assignement.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=3/12=25%
+#  recipe to execute (from 'Makefile', line 8):
+	g++ $(FLAG) -o test_Assignement Cost.o Assignement.o Node.o Container.o test_Assignement.cpp
+
+all: test_Assignement main test_Node test_Container test_Cost
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/4=0%
+
+test_Node: Node.o test_Node.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 17):
+	g++ $(FLAG) -o test_Node Node.o test_Node.cpp
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+cost.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-02 22:12:28
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Assignement.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-02 22:08:06
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 14:58:07
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+test_Cost.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Main.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cost.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-02 19:57:10
+#  File has been updated.
+#  Successfully updated.
+
+test_Container: Node.o Container.o test_Container.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 14):
+	g++ $(FLAG) Container.o Node.o test_Container.cpp -o test_Container
+
+Container.o: Container.cpp container.h
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-18 14:58:15
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 29):
+	g++ $(FLAG) -c Container.cpp
+
+# Not a target:
+assignement.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-02 22:12:58
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+node.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-02 22:11:54
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Node.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-02 22:11:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test_Assignement.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-02 19:56:12
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 32):
+	rm -f *.o test_Assignement test_Container test_Cost test_Node main *.exe
+
+Assignement.o: Assignement.cpp assignement.h
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-18 14:58:16
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 20):
+	g++ $(FLAG) -c Assignement.cpp
+
+test_Cost: Cost.o Node.o Container.o test_Cost.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 11):
+	g++ $(FLAG) Cost.o Node.o Container.o test_Cost.cpp -o test_Cost
+
+# Not a target:
+test_Node.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Cost.o: Cost.cpp cost.h
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-18 14:58:14
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 26):
+	g++ $(FLAG) -c Cost.cpp
+
+main: Cost.o Node.o Container.o Assignement.o Main.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 5):
+	g++ $(FLAG) -o main Cost.o Assignement.o Node.o Container.o Main.cpp
+
+run_all: main
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 35):
+	./main
+
+# Not a target:
+container.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-02 22:12:42
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+test_Container.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Container.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-01 22:17:18
+#  File has been updated.
+#  Successfully updated.
+
+Node.o: Node.cpp node.h
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-18 14:58:14
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 23):
+	g++ $(FLAG) -c Node.cpp
+
+# files hash-table stats:
+# Load=28/1024=3%, Rehash=0, Collisions=0/82=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 36 / storage = 398 B / avg = 11 B
+# current buf: size = 8162 B / used = 398 B / count = 36 / avg = 11 B
+
+# strcache performance: lookups = 90 / hit rate = 60%
+# hash-table stats:
+# Load=36/8192=0%, Rehash=0, Collisions=1/90=1%
+# Finished Make data base on Mon Jul 18 14:58:41 2022
+
+ 
