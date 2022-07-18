@@ -1,9 +1,0 @@
-{
-  "files.associations": {
-    "*.rmd": "markdown",
-    "iostream": "cpp",
-    "new": "cpp",
-    "*.tcc": "cpp",
-    "ostream": "cpp"
-  }
-}
